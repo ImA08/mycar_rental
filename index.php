@@ -32,6 +32,30 @@
         </div>
     </header>
 
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>USER LOGIN</h3>
+            <input type="text" placeholder="username" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>Lupa password? <a href="#">Klik disini</a></p>
+            <input type="submit" value="login now" class="btn">
+            <p>Atau masuk dengan</p>
+            <div class="button">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Belum punya akun? <a href="#">Daftar disini</a></p>
+        </form>
+    </div>
+
+
+
+
+
+
     <script src="script.js"></script>
 
 </body>
