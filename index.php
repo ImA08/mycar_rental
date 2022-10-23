@@ -23,9 +23,9 @@
         <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#" class="logo"> <i>My<span>Car</span>Rental</i></a>
         <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#OureService">Our Services</a>
-            <a href="#WhyUs">Why Us?</a>
+            <a href="#">Home</a>
+            <a href="#OurService">Our Services</a>
+
             <a href="#Testimonial">Testimonials</a>
             <a href="#FAQs">FAQs</a>
         </nav>
@@ -119,13 +119,13 @@
                     <img src="img/vehicle-1.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -135,13 +135,13 @@
                     <img src="img/vehicle-2.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -151,13 +151,13 @@
                     <img src="img/vehicle-3.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -167,13 +167,13 @@
                     <img src="img/vehicle-4.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -183,13 +183,13 @@
                     <img src="img/vehicle-5.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -199,13 +199,13 @@
                     <img src="img/vehicle-6.png" alt="">
                     <div class="content">
                         <h3>new model</h3>
-                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <div class="price"> <span>price : </span> Rp. -/- </div>
                         <p>
                             new
-                            <span class="fas fa-circle"></span> 2021
-                            <span class="fas fa-circle"></span> automatic
-                            <span class="fas fa-circle"></span> petrol
-                            <span class="fas fa-circle"></span> 183mph
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Manual
+                            <span class="fas fa-circle"></span> Bensin
+                            <span class="fas fa-circle"></span> 4 kursi
                         </p>
                         <a href="#" class="btn">check out</a>
                     </div>
@@ -223,7 +223,7 @@
 
     <!-- our services -->
 
-    <section class="services" id="services">
+    <section class="services" id="OurService">
 
         <h1 class="heading"> our <span>services</span> </h1>
 
@@ -276,6 +276,229 @@
     </section>
 
     <!-- ends of services -->
+
+    <!-- Testimonials -->
+
+    <section class="reviews" id="Testimonial">
+
+        <h1 class="heading"> <span>Testimonial</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-1.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-2.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-3.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-4.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-5.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="img/pic-6.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto id autem possimus assumenda at ut saepe.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- ends of Testimonials -->
+
+    <!-- Faqs -->
+
+    <div class="container" id="FAQs">
+
+
+        <h1 class="heading"> <span>FAQs</span> </h1>
+
+        <div class="accordion-container">
+
+            <div class="accordion active">
+                <div class="accordion-heading">
+                    <h3>accordion heading 01</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>accordion heading 02</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>accordion heading 03</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>accordion heading 04</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>accordion heading 05</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>accordion heading 06</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vel adipisci voluptas ut deserunt magnam tempora esse, necessitatibus sit soluta minima quos atque porro, explicabo saepe expedita quibusdam consectetur? Nemo!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ends of faqs -->
+
+    <!-- footer -->
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> our services </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> testimonial </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +62 xxx xxxx xxx </a>
+                <a href="#"> <i class="fas fa-phone"></i> +62 xxx xxxx xxx </a>
+                <a href="#"> <i class="fas fa-envelope"></i> mycarrental@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Padang, Indonesia </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!-- ends of footer -->
 
 
 
