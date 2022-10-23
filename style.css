@@ -27,6 +27,11 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+
+section {
+    padding: 2rem 9%;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -46,7 +51,7 @@ html{
 .header{
 position: fixed;
 top: 0; left: 0; right: 0;
-z-index: 999;
+z-index: 1000;
 background: #fff ;
 display: flex;
 align-items: center;
@@ -57,7 +62,7 @@ padding: 3rem 9%;
 .header .logo{
     font-size: 2.5rem;
     color:var(--black);
-    font-weight: bolder;    
+    font-weight: bold;    
 }
 
 .header .logo span{
@@ -71,14 +76,14 @@ padding: 3rem 9%;
 }
 
 .header .navbar a:hover{
-    color: #f9d806;
+    color: var(--yellow);
 }
 
-.header .btn{
+#login-btn .btn{
     margin-top: 0;
 }
 
-.header #login-btn i{
+ #login-btn i{
     font-size: 2.5rem;
     color:var(--light-color);
     cursor: pointer;
@@ -101,20 +106,19 @@ padding: 3rem 9%;
 
 .login-form-container{
     position: fixed;
-    top: 105%; left: 0;
-    z-index: 1000;
+    top: -105%; left: 0;
+    z-index: 10000;
     height: 100%;
     width: 100%;
     background: rgba(255,255,255,.9);
     display: flex;
     align-items: center;
-    justify-content: center;
-    opacity: 0;
+    justify-content: center;    
 }
 
-.login-form-container .active{
+.login-form-container.active{
     top: 0;
-    opacity: 1;
+    
 }
 
 .login-form-container form{
@@ -149,13 +153,13 @@ padding: 3rem 9%;
 }
 
 .login-form-container form .box{
-    margin: .7rem 0;
+    margin:.7rem 0;
     width: 100%;
-    text-transform: none;
-    color: var(--black);
     font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+    border:var(--border);
     padding:1rem 1.2rem;
-    border:var(--black);
     border-radius: .5rem;
 }
 
@@ -179,6 +183,23 @@ padding: 3rem 9%;
     cursor: pointer;
 }
 
+.home{
+    padding-top: 10rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.home h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home img{
+    width: 100%;
+    margin: 1rem 0;
+}
+
 
 
 
@@ -199,22 +220,29 @@ padding: 3rem 9%;
     .header.active{
         padding: 2rem;
     }
+
+    section {
+        padding: 2rem;
+    }
 }
 @media(max-width:768px){
     #menu-btn{        
         display: block;
     }
 
+
     #menu-btn.fa-times{
         transform: rotate(180deg);
     }
 
-    .header #login-btn i{        
-        display: block;
-    }
-    .header #login-btn .btn{ 
+    #login-btn .btn{
         display: none;
     }
+
+    #login-btn i{        
+        display: block;
+    }
+    
     .header .navbar{
         position: absolute;
         top:99%; left: 0;right: 0;
@@ -237,5 +265,8 @@ padding: 3rem 9%;
 @media(max-width:450px){
     html{
         font-size: 50%;        
+    }
+    heading{
+        font-size: 3rem;
     }
 }

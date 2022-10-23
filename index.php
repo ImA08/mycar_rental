@@ -20,10 +20,11 @@
         <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#" class="logo"> <i>My<span>Car</span>Rental</i></a>
         <nav class="navbar">
-            <a href="#">Our Services</a>
-            <a href="#">Why Us?</a>
-            <a href="#">Testimonials</a>
-            <a href="#">FAQs</a>
+            <a href="#Home">Home</a>
+            <a href="#OureService">Our Services</a>
+            <a href="#WhyUs">Why Us?</a>
+            <a href="#Testimonial">Testimonials</a>
+            <a href="#FAQs">FAQs</a>
         </nav>
 
         <div id="login-btn">
@@ -41,7 +42,7 @@
             <input type="text" placeholder="username" class="box">
             <input type="password" placeholder="password" class="box">
             <p>Lupa password? <a href="#">Klik disini</a></p>
-            <input type="submit" value="login now" class="btn">
+            <input type="submit" value="login" class="btn">
             <p>Atau masuk dengan</p>
             <div class="button">
                 <a href="#" class="btn">Google</a>
@@ -50,6 +51,20 @@
             <p>Belum punya akun? <a href="#">Daftar disini</a></p>
         </form>
     </div>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">Sewa & rental mobil terbaik di kawasan(lokasimu)</h1>
+        <img class="home-parallax" data-speed="5" src="img/bg_img.png" alt="">
+        <a href="#" class="btn home-parallax" data-speed="7">Mulai sewa mobil</a>
+
+    </section>
+
+
+
+
+
+
 
 
 

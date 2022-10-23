@@ -11,14 +11,19 @@ document.querySelector('#login-btn').onclick = () =>{
     document.querySelector('.login-form-container').classList.toggle('active');
 }
 
+document.querySelector('#close-login-form').onclick = () =>{
+    document.querySelector('.login-form-container').classList.remove('active');
+  }
+
 window.onscroll = () => {
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
     if(window.scrollY > 0){
         document.querySelector('.header').classList.add('active');
     } else{
         document.querySelector('.header').classList.remove('active'); 
     }
-    menu.classList.remove('fa-times');
-    navbar.classList.remove('active');
+    
 }
 
 window.onload = () => {
@@ -29,3 +34,13 @@ window.onload = () => {
     }
     
 }
+
+document.querySelector('.home').onmouseleave = () =>{
+
+    document.querySelectorAll('.home-parallax').forEach(elm =>{
+          
+      elm.style.transform = `translateX(0px) translateY(0px)`;
+  
+    });
+
+};
